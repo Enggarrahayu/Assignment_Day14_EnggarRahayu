@@ -1,4 +1,4 @@
-function wrapInArray<T>(item: T) {
+function wrapInArray<T>(item: T): T[] {
   return [item]
 }
 
